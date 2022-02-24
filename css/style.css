@@ -1,5 +1,82 @@
+/*variabili*/
+:root{
+    --color-but: #0260ff;
+    --color-text: #000000;
+    --color-two-text: #6d082a;
+    --color-bg-blocks: #b4d0e6;
+    --color-bg: #ffffff;
+}
+
+/*valori condivisi*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.box-30{
+    width: 30%;
+    height: 200px;
+    background-color: #6d082a;
+    float: left;
+}
+
+.box-70{
+    width: 70%;
+    height: 200px;
+    background-color: #6d082a;
+    float: left;
+}
+
+.row{
+    width: 100%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+/*contenitori blocchi float*/
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+/*header style*/
+
+header{
+    background-color: var(--color-bg-blocks);
+}
+
+/*navbar style*/
+.nav_bar{
+    width: 100vw;
+    padding: 1rem;
+    background-color: var(--color-bg);
+}
+
+.logo{
+    display: inline-block;
+}
+
+.menu{
+    display: inline-block;
+}
+
+img{
+    width: 100%;
+}
+
+
+
