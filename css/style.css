@@ -127,6 +127,11 @@ main{
     padding: 2.5rem 0;
 }
 
+/*sezione funzione DropBox*/
+.operazione_DropBox h1{
+    font-size: 40px;
+}
+
 /***********Button***************/
 .btn{
     text-decoration: none;
