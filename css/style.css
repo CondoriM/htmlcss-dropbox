@@ -15,6 +15,15 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: var(--color-bg);
+    font-family: var(--text-font);
+}
+
+img{
+    width: 100%;
+}
+
 .box-15{
     width: 15%;
     float: left;
@@ -66,20 +75,81 @@
 }
 
 .container{
-    width: 1300px;
+    width: 1200px;
     margin: auto;
 }
-/*header style*/
+
+/************sezioni************/
+
+/*****head*****/
 
 header{
-    background-color: var(--color-bg-blocks);
-    font-family: var(--text-font);
+    background-color: 
+    var(--color-bg-blocks);
+}
+
+/*****main*****/
+
+main{
+    margin-top: 3rem;
+}
+
+/************Text style************/
+
+/*head*/
+
+.container_head p{
+    padding: 0 2rem 2.7rem 1rem;
 }
 
 .container_head h1{
     font-size: 70px;
     padding: 4rem 0 3rem;
-    margin-bottom: -20px;
+}
+
+/*main*/
+
+.piano_dropbox h1{
+    font-size: 40px;
+    text-align: left;
+}
+
+.sub{
+    text-align: center;
+}
+
+.sub_text{
+
+}
+
+/*sezione membership*/
+.membership p{
+    padding: 2.5rem 0;
+}
+
+/***********Button***************/
+.btn{
+    text-decoration: none;
+    padding: 0.7rem;
+}
+
+.btn_blue{
+    background-color: var(--color-but);
+    color: var(--color-bg);
+}
+
+.btn_light{
+    background-color: var(--color-bg);
+    border:2px solid;
+    color: var(--color-text);
+}
+
+.container_head .btn{
+    margin: 0 1rem 1rem 1rem;
+}
+
+.container_head .random{
+    padding-top: 2rem;
 }
 
 /*navbar style*/
@@ -97,30 +167,29 @@ header{
     display: inline-block;
 }
 
-img{
-    width: 100%;
+/****sections*****/
+
+/*sezione radio abbonamento*/
+.chek{
+    margin: 2rem 0 1rem 0;
 }
 
-/*********Text style*********/
-
-.container_head p{
-    padding: 0 2rem 2.7rem 1rem;
+.chek label{
+    margin: 0 1rem 0 0;
 }
 
-/********Button********/
+/*sezione abbonamento*/
 
-.btn{
-    text-decoration: none;
-    background-color: var(--color-but);
-    padding: 0.7rem;
-    color: var(--color-bg);
+
+.piano_dropbox .mid{
+    margin: 0 10%;
 }
 
-.container_head .btn{
-    margin: 0 1rem 1rem 1rem;
+.piano_dropbox .box-30{
+    padding: 0 0rem 4rem;
 }
 
-.container_head .random{
-    padding-top: 2rem;
+/*sezione membership*/
+.mem_text{
+    padding: 2rem 5rem 0 5rem;
 }
-
