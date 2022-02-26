@@ -27,30 +27,36 @@ img{
 .box-15{
     width: 15%;
     float: left;
+    position: relative;
 }
 
 .box-30{
     width: 30%;
     float: left;
+    position: relative;
 }
 
 .box-40{
     width: 40%;
     float: left;
+    position: relative;
 }
 
 .box-70{
     width: 70%;
     float: left;
+    position: relative;
 }
 
 .box-50{
     width: 50%;
     float: left;
+    position: relative;
 }
 
 .row{
     width: 100%;
+    position: relative;
 }
 
 .row::after{
@@ -65,6 +71,14 @@ img{
 
 .left{
     float: left;
+}
+
+.mid{
+    margin: 0 5%;
+}
+
+.mark{
+    text-decoration: underline;
 }
 
 /*****contenitori blocchi float******/
@@ -128,8 +142,17 @@ main{
 }
 
 /*sezione funzione DropBox*/
-.operazione_DropBox h1{
+.operazione_dropbox h1{
     font-size: 40px;
+    padding:3rem 0;
+}
+
+.operazione_dropbox p{
+    padding: 1.7rem 0 6rem;
+}
+
+.operazione_dropbox a{
+    color: var(--color-but);
 }
 
 /***********Button***************/
@@ -185,11 +208,6 @@ main{
 
 /*sezione abbonamento*/
 
-
-.piano_dropbox .mid{
-    margin: 0 10%;
-}
-
 .piano_dropbox .box-30{
     padding: 0 0rem 4rem;
 }
@@ -197,4 +215,10 @@ main{
 /*sezione membership*/
 .mem_text{
     padding: 2rem 5rem 0 5rem;
+}
+
+/*sezione blocchi*/
+
+.sezione_block{
+    height: 
 }
