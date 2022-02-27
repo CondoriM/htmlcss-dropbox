@@ -5,6 +5,10 @@
     --color-two-text: #6d082a;
     --color-bg-blocks: #b4d0e6;
     --color-bg: #ffffff;
+    --color-bg-svg: #f5f5f5;
+    --color-svg-green: #a2d39b;
+    --color-svg-blue: #0193ce;
+    --color-svg-red: #ff1c1d;
     --text-font:'Open Sans', sans-serif;
 }
 
@@ -63,6 +67,27 @@ img{
     content: "";
     display: table;
     clear: both;
+}
+
+.cont-15{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    float: left;
+}
+
+.cont-30{
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+.cont-40{
+    width: 853px;
+    float: left;
+    position: relative;
+    padding: 4rem;
+    height: 500px;
 }
 
 .right{
@@ -155,6 +180,16 @@ main{
     color: var(--color-but);
 }
 
+/*blocco free try*/
+.free-try h1{
+    font-size: 40px;
+    padding: 0 8rem 0 3rem;
+}
+
+.free-try a{
+    margin-right: 2rem;
+}
+
 /***********Button***************/
 .btn{
     text-decoration: none;
@@ -220,5 +255,73 @@ main{
 /*sezione blocchi*/
 
 .sezione_block{
-    height: 
+    padding-top: 4rem;
+}
+
+.sezione_block .svg-img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem;
+    width: 100%;
+}
+
+.cont-img{
+    width: 150px;
+    margin-bottom: 2rem;
+    border-bottom: solid var(--color-bg-svg);
+}
+
+.cont-40 p{
+    margin-top: 5rem;
+    padding: 0 1rem 0 0;
+}
+
+.cont-30 .cont-15:first-child{
+    background-color: var(--color-svg-green);
+}
+
+.cont-30 .arizona{
+    background-color: var(--color-two-text);
+}
+
+.cont-30 .florida{
+    background-color: var(--color-svg-blue);
+}
+
+.cont-30 .cont-15:last-child{
+    background-color: var(--color-svg-red);
+}
+
+.sezione_block .cont-40{
+    background-color: var(--color-bg-svg);
+}
+
+.sezione_block .row:last-child{
+    height: 400px;
+    background-color: var(--color-bg-blocks);
+}
+
+.free-try .box-70{
+    min-height: 100%;
+}
+
+.free-try .box-30{
+    min-height: 100%;
+}
+
+.free-try .box-70 h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: var(--color-two-text);
+}
+
+.free-try .box-30 a{
+    position: absolute;
+    left: -15%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
