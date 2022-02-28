@@ -10,6 +10,7 @@
     --color-svg-blue: #0193ce;
     --color-svg-red: #ff1c1d;
     --color-border: #dbdbdb;
+    --color-text-tras: #878a8f;
     --text-font:'Open Sans', sans-serif;
 }
 
@@ -27,6 +28,12 @@ body{
 
 img{
     width: 100%;
+}
+
+.box-5{
+    width: 5%;
+    float: left;
+    position: relative;
 }
 
 .box-15{
@@ -47,16 +54,22 @@ img{
     position: relative;
 }
 
+.box-50{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
 .box-70{
     width: 70%;
     float: left;
     position: relative;
 }
 
-.box-50{
-    width: 50%;
+.box-95{
+    width: 95%;
     float: left;
-    position: relative;
+    position: relative; 
 }
 
 .row{
@@ -142,7 +155,40 @@ main{
 
 /************Text style************/
 
+/*nav*/
+
+.nav_bar ul{
+    list-style: none;
+}
+
+.nav_bar li{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 1rem;
+}
+
+.nav_bar .menu_item{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.nav_bar img{
+    vertical-align: middle;
+}
+
 /*head*/
+#site_header{
+    padding: 0 0 10rem 0;
+}
+
+.entity_head{
+    font-size: 30px;
+    padding-left: 1rem;
+}
+
+.container_head img{
+    position: absolute;
+}
 
 .container_head p{
     padding: 0 2rem 2.7rem 1rem;
@@ -154,6 +200,9 @@ main{
 }
 
 /*main*/
+#site_main{
+    padding-top: 10rem;
+}
 
 .piano_dropbox h1{
     font-size: 40px;
@@ -162,10 +211,54 @@ main{
 
 .sub{
     text-align: center;
+    padding: 1rem;
+    border-bottom: 2px solid var(--color-border);
 }
 
-.sub_text{
+.piano_dropbox .box-95{
+    padding: 1rem 0 1rem 0.5rem;
+}
 
+.piano_dropbox .box-5{
+    padding: 1rem 0;
+}
+
+/*sezione abbonamenti disponibili*/
+
+.piano_dropbox .buy-now{
+    padding: 2rem 0 4rem 0;
+    display: inline-block;
+}
+
+.piano_dropbox .border-bot{
+    border-bottom: solid 2px var(--color-border);
+    padding-bottom: 1.5rem;
+}
+
+.btn a{
+    color: var(--color-but);
+}
+
+.blue i{
+    color: var(--color-but);
+}
+
+.text_op{
+    color: var(--color-text-tras);
+    padding-bottom: 1rem;
+}
+
+.pad-box .row{
+    padding-bottom: 2rem;
+}
+
+.enterprise{
+    border: 2px solid var(--color-border);
+    margin: 2rem 0;
+}
+
+.enterprise .pad{
+    padding: 3rem;
 }
 
 /*sezione membership*/
@@ -239,7 +332,7 @@ footer li{
 /***********Button***************/
 .btn{
     text-decoration: none;
-    padding: 0.7rem;
+    padding: 0.6rem;
 }
 
 .btn_blue{
@@ -270,7 +363,7 @@ footer li{
 
 /*navbar style*/
 .nav_bar{
-    width: 100vw;
+    width: 100%;
     padding: 1rem;
     background-color: var(--color-bg);
 }
@@ -297,7 +390,12 @@ footer li{
 /*sezione abbonamento*/
 
 .piano_dropbox .box-30{
-    padding: 0 0rem 4rem;
+    border: solid 2px var(--color-border);
+}
+
+.piano_dropbox .pad-box{
+    padding: 1rem 1.6rem 4rem;
+    height: 1000px;
 }
 
 /*sezione membership*/
