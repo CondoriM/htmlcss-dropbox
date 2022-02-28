@@ -119,6 +119,12 @@ img{
     margin: auto;
 }
 
+.container_foot{
+    width: 1500px;
+    margin: auto;
+    padding: 6rem 0;
+}
+
 /************sezioni************/
 
 /*****head*****/
@@ -198,12 +204,11 @@ main{
     border-bottom: solid 1px var(--color-border);
 }
 .request li{
-    text-decoration: none;
+    list-style: none;
     border-bottom: solid 1px var(--color-border);
 }
 
 .request ul{
-    text-decoration: none;
     padding-bottom: 5rem
 }
 
@@ -218,6 +223,17 @@ main{
     padding: 2rem;
     font-weight: bold;
     float: right;
+}
+
+/*sezione Footer*/
+
+footer ul{
+    list-style: none;
+    padding: 1rem 0 0 0;
+}
+
+footer li{
+    padding: 0.4rem 0;
 }
 
 /***********Button***************/
@@ -368,4 +384,18 @@ main{
 footer{
     background-color: var(--color-text);
     color: var(--color-bg);
+}
+
+footer .row{
+    padding: 0 0 3rem 0; 
+}  
+
+footer .box-15{
+    margin-right: 4.5rem;
+}
+
+footer .border_text{
+    border-top: solid 2px var(--color-border);
+    padding: 2rem 0 0 0;
+    color: var(--color-border);
 }
