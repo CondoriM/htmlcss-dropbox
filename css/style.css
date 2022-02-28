@@ -9,6 +9,7 @@
     --color-svg-green: #a2d39b;
     --color-svg-blue: #0193ce;
     --color-svg-red: #ff1c1d;
+    --color-border: #dbdbdb;
     --text-font:'Open Sans', sans-serif;
 }
 
@@ -190,6 +191,35 @@ main{
     margin-right: 2rem;
 }
 
+/*sezione Request*/
+.request h1{
+    padding: 6rem 0 3rem 0;
+    font-size: 35px;
+    border-bottom: solid 1px var(--color-border);
+}
+.request li{
+    text-decoration: none;
+    border-bottom: solid 1px var(--color-border);
+}
+
+.request ul{
+    text-decoration: none;
+    padding-bottom: 5rem
+}
+
+.request .text{
+    font-weight: bold;
+    margin: 2rem 0;
+    display: inline-block;
+    float: left;
+}
+
+.request .entity{
+    padding: 2rem;
+    font-weight: bold;
+    float: right;
+}
+
 /***********Button***************/
 .btn{
     text-decoration: none;
@@ -205,6 +235,13 @@ main{
     background-color: var(--color-bg);
     border:2px solid;
     color: var(--color-text);
+}
+
+.btn_light_nb{
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .container_head .btn{
@@ -313,7 +350,7 @@ main{
 
 .free-try .box-70 h1{
     position: absolute;
-    left: 50%;
+    left: 47%;
     top: 50%;
     transform: translate(-50%,-50%);
     color: var(--color-two-text);
@@ -321,7 +358,14 @@ main{
 
 .free-try .box-30 a{
     position: absolute;
-    left: -15%;
+    left: 0%;
     top: 50%;
     transform: translate(-50%,-50%);
+}
+
+/*********sezione footer**********/
+
+footer{
+    background-color: var(--color-text);
+    color: var(--color-bg);
 }
